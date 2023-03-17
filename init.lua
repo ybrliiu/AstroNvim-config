@@ -1,15 +1,17 @@
 return {
     plugins = {
-        ["neo-tree"] = {
+        "nvim-neo-tree/neo-tree.nvim",
+        opts = {
             filesystem = {
                 filtered_items = {
                     visible = true,
                 },
             },
         },
+        
     },
     lsp = {
-        ["server-settings"] = {
+        config = {
             perlnavigator = {
                 settings = {
                     perlnavigator = {
