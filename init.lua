@@ -9,9 +9,6 @@ return {
         },
     },
     lsp = {
-        servers = {
-            'perlnavigator',
-        },
         ["server-settings"] = {
             perlnavigator = {
                 settings = {
